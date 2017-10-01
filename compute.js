@@ -13,7 +13,6 @@ function convert () {
     var exchangeRate = selectElement.value ;
     var index = selectElement.selectedIndex ;
     var currency = selectElement.options[index].text ;
-
     updateExchange (dollar, exchangeRate, currency, index) ;
 
 }
@@ -22,7 +21,7 @@ function convert () {
 // Calculate Function Goes Here
 
 function calculate (dollar, exchangeRate) {
-    var result = dollar * exchangeRate ;
+    var result = dollar*exchangeRate ;
     return result ;
 }
 
